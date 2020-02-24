@@ -1,13 +1,15 @@
-blah:
+terminator 1.92-py3:
   Features
     * None
 
   Enhancements
     * Updated code to use Python 3
+    * Updated all translations from Launchpad repo
   
   Bug Fixes
     * Fix duplication of characters while broadcasting when ibus is running
     * Fix Custom Commands plugin
+
 
 terminator 1.91:
   Features

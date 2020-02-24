@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-01-12 16:51+0100\n"
-"PO-Revision-Date: 2015-08-05 12:41+0000\n"
-"Last-Translator: Pieter de Bruijn <ubuntulaunchpad@pieterdebruijn.nl>\n"
+"PO-Revision-Date: 2020-01-28 12:54+0000\n"
+"Last-Translator: Joan Lavrijs <Unknown>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2017-02-09 06:01+0000\n"
-"X-Generator: Launchpad (build 18326)\n"
+"X-Launchpad-Export-Date: 2020-01-29 06:02+0000\n"
+"X-Generator: Launchpad (build b8d1327fd820d6bf500589d6da587d5037c7d88e)\n"
 "Language: \n"
 
 #. Command         uuid req.    Description
@@ -145,7 +145,7 @@ msgstr "Sla meerdere lay-outs en profielen op via GUI voorkeureneditor"
 
 #: ../data/terminator.appdata.xml.in.h:12
 msgid "Simultaneous typing to arbitrary groups of terminals"
-msgstr ""
+msgstr "Typ gelijktijdig naar een willekeurige group terminals"
 
 #: ../data/terminator.appdata.xml.in.h:13
 msgid "And lots more..."
@@ -180,12 +180,16 @@ msgid ""
 "This window has several terminals open. Closing the window will also close "
 "all terminals within it."
 msgstr ""
+"Dit venster heeft meerdere terminals open. Als je dit venster sluit, worden "
+"alle terminals in dit venster gesloten."
 
 #: ../terminatorlib/container.py:178
 msgid ""
 "This tab has several terminals open. Closing the tab will also close all "
 "terminals within it."
 msgstr ""
+"Dit venster heeft meerdere tabs open. Als je dit venster sluit, worden alle "
+"tabs in dit venster gesloten."
 
 #: ../terminatorlib/container.py:198
 msgid "Do not show this message next time"
@@ -490,12 +494,12 @@ msgstr "Aangepaste opdrachten — Instellingen"
 #: ../terminatorlib/plugins/logger.py:22
 #: ../terminatorlib/plugins/terminalshot.py:21
 msgid "_Cancel"
-msgstr ""
+msgstr "_Annuleren"
 
 #: ../terminatorlib/plugins/custom_commands.py:125
 #: ../terminatorlib/plugins/custom_commands.py:274
 msgid "_OK"
-msgstr ""
+msgstr "_OK"
 
 #: ../terminatorlib/plugins/custom_commands.py:152
 msgid "Enabled"
@@ -518,27 +522,27 @@ msgstr "Boven"
 
 #: ../terminatorlib/plugins/custom_commands.py:180
 msgid "Up"
-msgstr ""
+msgstr "Omhoog"
 
 #: ../terminatorlib/plugins/custom_commands.py:186
 msgid "Down"
-msgstr ""
+msgstr "Omlaag"
 
 #: ../terminatorlib/plugins/custom_commands.py:192
 msgid "Last"
-msgstr ""
+msgstr "Laatste"
 
 #: ../terminatorlib/plugins/custom_commands.py:198
 msgid "New"
-msgstr ""
+msgstr "Nieuw"
 
 #: ../terminatorlib/plugins/custom_commands.py:203
 msgid "Edit"
-msgstr ""
+msgstr "Bewerken"
 
 #: ../terminatorlib/plugins/custom_commands.py:209
 msgid "Delete"
-msgstr ""
+msgstr "Verwijder"
 
 #: ../terminatorlib/plugins/custom_commands.py:269
 msgid "New Command"
@@ -570,7 +574,7 @@ msgstr "De naam *%s* bestaat al"
 #: ../terminatorlib/plugins/logger.py:23
 #: ../terminatorlib/plugins/terminalshot.py:22
 msgid "_Save"
-msgstr ""
+msgstr "Op_slaan"
 
 #: ../terminatorlib/plugins/logger.py:34
 msgid "Start _Logger"
@@ -675,7 +679,7 @@ msgstr ""
 
 #: ../terminatorlib/preferences.glade.h:21
 msgid "Gruvbox dark"
-msgstr ""
+msgstr "Gruvbox dark"
 
 #: ../terminatorlib/preferences.glade.h:22
 msgid "Custom"
@@ -847,7 +851,7 @@ msgstr "Scheidingslijngrootte van terminal:"
 
 #: ../terminatorlib/preferences.glade.h:65
 msgid "Extra Styling (Theme dependant)"
-msgstr ""
+msgstr "Extra opmaak (afhankelijk van thema)"
 
 #: ../terminatorlib/preferences.glade.h:66
 msgid "Tab position:"
@@ -931,7 +935,7 @@ msgstr "Kopiëren wanneer tekst wordt geselecteerd"
 
 #: ../terminatorlib/preferences.glade.h:86
 msgid "Rewrap on resize"
-msgstr ""
+msgstr "Opnieuw uitlijnen wanneer de grootte wordt aangepast"
 
 #: ../terminatorlib/preferences.glade.h:87
 msgid "Select-by-_word characters:"
@@ -955,7 +959,7 @@ msgstr "Knipperen"
 
 #: ../terminatorlib/preferences.glade.h:92
 msgid "Foreground"
-msgstr ""
+msgstr "Voorgrond"
 
 #: ../terminatorlib/preferences.glade.h:93
 msgid "<b>Terminal bell</b>"
@@ -1051,7 +1055,7 @@ msgstr "_Transparante achtergrond"
 
 #: ../terminatorlib/preferences.glade.h:117
 msgid "S_hade transparent background:"
-msgstr ""
+msgstr "Maak transparante achtergrond donker"
 
 #: ../terminatorlib/preferences.glade.h:118
 msgid "<small><i>None</i></small>"
@@ -1115,7 +1119,7 @@ msgstr "_Delete-toets genereert:"
 
 #: ../terminatorlib/preferences.glade.h:131
 msgid "Encoding:"
-msgstr ""
+msgstr "Tekenset:"
 
 #: ../terminatorlib/preferences.glade.h:132
 msgid "_Reset Compatibility Options to Defaults"
@@ -1187,6 +1191,17 @@ msgid ""
 "users. If you have any suggestions, please file wishlist bugs! (see left for "
 "the Development link)"
 msgstr ""
+"Het doel van dit project is om een nuttig gereedschap te maken om terminals "
+"the schikken. Het is geinspireerd door programma's zoals gnome-multi-term, "
+"quadkonsole, etc. om de belangrijkste focus te leggen in het schikken van "
+"terminals in roosters (tabs is de meest gebruikte standaard methode, die ook "
+"door Terminator ondersteund wordt).\n"
+"\n"
+"Veel van het gedrag van Terminator is gebaseerd op GNOME Terminal, en we "
+"voegen daarvan mettertijd meer functionaliteit toe, maar we breiden ook uit "
+"in andere richtingen met nuttige functies voor systeem beheerders en andere "
+"gebrukers. Als je suggesties hebt, gelieve dit te melden in de verlanglijst "
+"bugs! (zie links voor de ontwikkeling link)"
 
 #: ../terminatorlib/preferences.glade.h:153
 msgid "The Manual"
@@ -1199,9 +1214,16 @@ msgid ""
 "\n"
 "<a href=\"http://gnometerminator.blogspot.com/\">Blog / News</a>\n"
 "<a href=\"https://launchpad.net/terminator\">Development</a>\n"
-"<a href=\"https://bugs.launchpad.net/terminator\">Bugs / Enhancements</a>\n"
+"<a href=\"https://github.com/nuthead/terminator-py3/issues\">Bugs / Enhancements</a>\n"
 "<a href=\"https://translations.launchpad.net/terminator\">Translations</a>"
 msgstr ""
+"<a "
+"href=\"http://gnometerminator.blogspot.com/p/introduction.html\">Thuispagina<"
+"/a>\n"
+"<a href=\"http://gnometerminator.blogspot.com/\">Blog / Nieuws</a>\n"
+"<a href=\"https://launchpad.net/terminator\">Ontwikkeling</a>\n"
+"<a href=\"https://github.com/nuthead/terminator-py3/issues\">Bugs / Verbeteringen</a>\n"
+"<a href=\"https://translations.launchpad.net/terminator\">Vertalingen</a>"
 
 #: ../terminatorlib/preferences.glade.h:159
 msgid "About"
@@ -1441,11 +1463,11 @@ msgstr "Creër een nieuw Terminator proces"
 
 #: ../terminatorlib/prefseditor.py:156
 msgid "Don't broadcast key presses"
-msgstr ""
+msgstr "Zend geen toetsaanslagen uit"
 
 #: ../terminatorlib/prefseditor.py:157
 msgid "Broadcast key presses to group"
-msgstr ""
+msgstr "Zend toetsaanslagen uit naar groep"
 
 #: ../terminatorlib/prefseditor.py:158
 msgid "Broadcast key events to all"
@@ -1477,11 +1499,11 @@ msgstr ""
 
 #: ../terminatorlib/prefseditor.py:165
 msgid "Switch to next profile"
-msgstr ""
+msgstr "Schakel over naar volgend profiel"
 
 #: ../terminatorlib/prefseditor.py:166
 msgid "Switch to previous profile"
-msgstr ""
+msgstr "Schakel over naar vorig profiel"
 
 #: ../terminatorlib/prefseditor.py:167
 msgid "Open the manual"
@@ -1557,11 +1579,11 @@ msgstr "Adres _kopiëren"
 
 #: ../terminatorlib/terminal_popup_menu.py:102
 msgid "_Copy"
-msgstr ""
+msgstr "_Kopiëren"
 
 #: ../terminatorlib/terminal_popup_menu.py:107
 msgid "_Paste"
-msgstr ""
+msgstr "_Plakken"
 
 #: ../terminatorlib/terminal_popup_menu.py:114
 msgid "Split H_orizontally"
@@ -1581,7 +1603,7 @@ msgstr "Open_Debug Tabblad"
 
 #: ../terminatorlib/terminal_popup_menu.py:147
 msgid "_Close"
-msgstr ""
+msgstr "_Sluiten"
 
 #: ../terminatorlib/terminal_popup_menu.py:156
 msgid "_Zoom terminal"
@@ -1655,23 +1677,23 @@ msgstr "Broadcast _alle"
 
 #: ../terminatorlib/terminal.py:492
 msgid "Broadcast _group"
-msgstr ""
+msgstr "uitzend_groep"
 
 #: ../terminatorlib/terminal.py:493
 msgid "Broadcast _off"
-msgstr ""
+msgstr "uitzenden_af"
 
 #: ../terminatorlib/terminal.py:509
 msgid "_Split to this group"
-msgstr ""
+msgstr "_Splits naar deze groep"
 
 #: ../terminatorlib/terminal.py:514
 msgid "Auto_clean groups"
-msgstr ""
+msgstr "Auto-opschonen groepen"
 
 #: ../terminatorlib/terminal.py:521
 msgid "_Insert terminal number"
-msgstr ""
+msgstr "_voeg terminal nummer in"
 
 #: ../terminatorlib/terminal.py:525
 msgid "Insert _padded terminal number"
@@ -1687,7 +1709,7 @@ msgstr "Kan shell niet starten:"
 
 #: ../terminatorlib/terminal.py:1848
 msgid "Rename Window"
-msgstr ""
+msgstr "Hernoem venster"
 
 #: ../terminatorlib/terminal.py:1856
 msgid "Enter a new title for the Terminator window..."
@@ -1695,99 +1717,99 @@ msgstr ""
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Alpha"
-msgstr ""
+msgstr "Alfa"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Beta"
-msgstr ""
+msgstr "Bèta"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Gamma"
-msgstr ""
+msgstr "Gamma"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Epsilon"
-msgstr ""
+msgstr "Epsilon"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Zeta"
-msgstr ""
+msgstr "Zeta"
 
 #: ../terminatorlib/titlebar.py:254
 msgid "Eta"
-msgstr ""
+msgstr "Eta"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Theta"
-msgstr ""
+msgstr "Theta"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Iota"
-msgstr ""
+msgstr "Iota"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Kappa"
-msgstr ""
+msgstr "Kappa"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Lambda"
-msgstr ""
+msgstr "Lambda"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Mu"
-msgstr ""
+msgstr "Mu"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Nu"
-msgstr ""
+msgstr "Nu"
 
 #: ../terminatorlib/titlebar.py:255
 msgid "Xi"
-msgstr ""
+msgstr "Xi"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Omicron"
-msgstr ""
+msgstr "Omicron"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Pi"
-msgstr ""
+msgstr "Pi"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Rho"
-msgstr ""
+msgstr "Rho"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Sigma"
-msgstr ""
+msgstr "Sigma"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Tau"
-msgstr ""
+msgstr "Tau"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Upsilon"
-msgstr ""
+msgstr "Upsilon"
 
 #: ../terminatorlib/titlebar.py:256
 msgid "Phi"
-msgstr ""
+msgstr "Phi"
 
 #: ../terminatorlib/titlebar.py:257
 msgid "Chi"
-msgstr ""
+msgstr "Chi"
 
 #: ../terminatorlib/titlebar.py:257
 msgid "Psi"
-msgstr ""
+msgstr "Psi"
 
 #: ../terminatorlib/titlebar.py:257
 msgid "Omega"
-msgstr ""
+msgstr "Omega"
 
 #: ../terminatorlib/window.py:276
 msgid "window"

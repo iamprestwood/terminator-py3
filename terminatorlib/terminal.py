@@ -1088,7 +1088,7 @@ class Terminal(Gtk.VBox):
             # copy text with no modification yet to destination
             txt = selection_data.get_data()
 
-            # https://bugs.launchpad.net/terminator/+bug/1518705
+            # https://github.com/nuthead/terminator-py3/issues/+bug/1518705
             if info == self.TARGET_TYPE_MOZ:
                  txt = txt.decode('utf-16').encode('utf-8')
                  txt = txt.split('\n')[0]
