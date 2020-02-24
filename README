@@ -1,6 +1,8 @@
 Terminator
 by Chris Jones <cmsj@tenshu.net> and others.
 
+Ported to Python 3 by James Prestwood
+
 The goal of this project is to produce a useful tool for arranging terminals. 
 It is inspired by programs such as gnome-multi-term, quadkonsole, etc. in that
 the main focus is arranging terminals in grids (tabs is the most common default
@@ -27,7 +29,7 @@ manpage "terminator". For configuration options, see the manpage
 "terminator_config".
 
 Ask questions at: https://answers.launchpad.net/terminator/
-Please report all bugs to https://bugs.launchpad.net/terminator/+filebug
+Please report all bugs to https://github.com/nuthead/terminator-py3/issues
 
 Terminator began by shamelessly copying code from the vte-demo.py in the vte 
 widget package, and the gedit terminal plugin (which was fantastically 
