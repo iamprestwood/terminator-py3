@@ -1,4 +1,4 @@
-terminator 1.92-py3:
+terminator 1.92-py3-dev:
   Features
     * None
 
@@ -9,6 +9,7 @@ terminator 1.92-py3:
   Bug Fixes
     * Fix duplication of characters while broadcasting when ibus is running
     * Fix Custom Commands plugin
+    * Remove the ability to set window classname, as function in gtk is now deprecated (Launchpad rev 1758)
 
 
 terminator 1.91:

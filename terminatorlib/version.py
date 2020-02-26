@@ -21,4 +21,4 @@ TerminatorVersion supplies our version number.
 """
 
 APP_NAME = 'terminator'
-APP_VERSION = '1.92-py3'
+APP_VERSION = '1.92-py3-dev'
