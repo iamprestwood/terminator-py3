@@ -9,8 +9,9 @@ terminator 1.92-py3-dev:
   Bug Fixes
     * Fix duplication of characters while broadcasting when ibus is running
     * Fix Custom Commands plugin
-    * Remove the ability to set window classname, as function in gtk is now deprecated (Launchpad rev 1758)
-    * Fix middle-click paste to receivers that was accidentally broken by fix for LP:1647507 (Launchpad rev 1765)
+    * Remove the ability to set window classname, as function in gtk is now deprecated (Steve Boddy Launchpad rev 1758)
+    * Fix middle-click paste to receivers that was accidentally broken by fix for LP:1647507 (Steve Boddy Launchpad rev 1765)
+    * Fix hide on lose focus due to our own menus and Preferences (Juliano Fischer Naves + Steve Boddy Launchpad rev 1769)
 
 
 terminator 1.91:
