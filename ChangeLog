@@ -12,6 +12,7 @@ terminator 1.92-py3-dev:
     * Remove the ability to set window classname, as function in gtk is now deprecated (Steve Boddy Launchpad rev 1758)
     * Fix middle-click paste to receivers that was accidentally broken by fix for LP:1647507 (Steve Boddy Launchpad rev 1765)
     * Fix hide on lose focus due to our own menus and Preferences (Juliano Fischer Naves + Steve Boddy Launchpad rev 1769)
+    * Fix case where intltool-merge is missing that causes an exception when trying to install with setup.py (Steve Boddy Launchpad rev 1771)
 
 
 terminator 1.91:
