@@ -5,6 +5,7 @@ terminator 1.92-py3-dev:
   Enhancements
     * Updated code to use Python 3
     * Updated all translations from Launchpad repo
+    * Replace old method of searching with builtin, highlighting libvte calls (Steve Boddy Launchpad rev 1773)
   
   Bug Fixes
     * Fix duplication of characters while broadcasting when ibus is running
